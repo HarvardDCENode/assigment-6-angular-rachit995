@@ -1,0 +1,14 @@
+<div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
+  <div class="h-40 bg-gray-200 aspect-w-3 aspect-h-4 group-hover:opacity-75">
+    <img src="{{trip.image}}" alt="{{trip.title}}" class="object-cover object-center w-full h-full sm:h-full sm:w-full">
+  </div>
+  <div class="flex flex-1 flex-col space-y-2 p-4">
+    <h3 class="text-sm font-medium text-gray-900">
+      <a href="/trip/{{trip.id}}" class="hover:underline">
+        <span class="absolute inset-0"></span>
+        {{trip.title}}
+      </a>
+    </h3>
+    <p class="text-sm text-gray-500">{{trip.timeAgo}}</p>
+  </div>
+</div>
