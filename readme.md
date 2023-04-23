@@ -1,27 +1,64 @@
-# Assigment6AngularRachit995
+# Assignment #6 - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+This is an Trips management web app angular project with the following directory structure:
 
-## Development server
+```
+.
+├── README.md
+├── angular.json
+├── package-lock.json
+├── package.json
+├── src
+│   ├── app
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   ├── trip-item
+│   │   │   ├── trip-item.component.css
+│   │   │   ├── trip-item.component.html
+│   │   │   ├── trip-item.component.spec.ts
+│   │   │   └── trip-item.component.ts
+│   │   ├── trip.service.spec.ts
+│   │   └── trip.service.ts
+│   ├── assets
+│   │   └── images
+│   │       └── logo.png
+│   ├── environments
+│   │   ├── environment.prod.ts
+│   │   └── environment.ts
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   ├── styles.css
+│   └── types
+│       └── tripItem.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+└── tsconfig.spec.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+8 directories, 27 files
+```
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To install the dependencies, run the following command:
 
-## Build
+`npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Running unit tests
+To start the angular server, run the following command:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`npm start`
 
-## Running end-to-end tests
+## Features
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. View all trips in a grid view from the API.
+2. It has a single component that displays the trip details
 
-## Further help
+## Links
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Live Demo](http://67.205.145.209:8086/)
