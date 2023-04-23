@@ -1,0 +1,70 @@
+<div class="min-h-full">
+  <div class="bg-gray-800">
+    <div class="mx-auto max-w-7xl px-8">
+      <div class="flex items-center justify-between py-3 sm:h-16 sm:py-0">
+        <div class="flex items-center flex-col space-y-2 sm:flex-row sm:space-y-0">
+          <div class="flex-shrink-0">
+            <a href="/" class="inline-flex items-center group">
+              <img class="w-auto h-8 mr-3 transition-all group-hover:animate-spin" src="/assets/images/logo.png"
+                alt="Tripster">
+              <span
+                class="mr-1 text-2xl font-semibold text-white font-lobster group-hover:text-gray-100">Tripster</span>
+            </a>
+          </div>
+          <div class="block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="/" class="rounded-md px-3 py-2 text-sm font-medium bg-gray-900 text-white">Home</a>
+              <a href="/trip/add"
+                class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Add
+                Trip</a>
+              <a href="/trip/map"
+                class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Map
+                View</a>
+              <a href="/trip/test/api"
+                class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Test
+                API</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="bg-white shadow">
+    <div class="mx-auto max-w-7xl py-6 px-4 sm:px-8 sm:py-6">
+      <div class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 truncate">
+          {{title}}
+        </h1>
+        <div class="flex space-x-2">
+          <a href="/trip/add"
+            class="inline-flex items-center px-3 py-2 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <i class="fa-solid fa-plus mr-2"></i>
+            New Trip
+          </a>
+          <a href="/trip/deleteAll"
+            class="inline-flex items-center px-3 py-2 text-sm font-semibold text-gray-900 bg-white rounded-md shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+            <i class="fa-regular fa-trash-can mr-2"></i>
+            Clear All
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="mx-auto max-w-7xl py-6 px-4 sm:px-8 sm:py-6">
+
+    </div>
+  </main>
+  <div class="block">
+    <div class="max-w-7xl mx-auto py-12 px-8">
+      <div class="mt-8 order-1">
+        <p class="text-center text-xs leading-5 text-gray-500">
+          &copy; {{year}} Tripster by&nbsp;
+          <a href="https://www.github.com/rachit995" target="_blank" rel="noopener noreferrer" class="underline">Rachit
+            Sharma</a>
+          | All rights reserved.&nbsp;
+          <a href="" target="_blank" rel="noopener noreferrer" class="underline">Github</a>
+        </p>
+      </div>
+    </div>
+  </div>
